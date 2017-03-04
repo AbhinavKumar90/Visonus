@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <EditText android:id="@+id/edit_message"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/edit_message" />
+
+    <TextView
+        android:text="ViSonus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="41dp"
+        android:id="@+id/textView"
+        android:textSize="36sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        tools:textColor="@android:color/holo_orange_dark"
+        android:fontFamily="monospace" />
+
+    <TextView
+        android:text="version 1.0.0.1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="71dp"
+        android:id="@+id/version"
+        android:textAllCaps="false"
+        android:textAlignment="center"
+        android:layout_below="@+id/edit_message"
+        android:layout_centerHorizontal="true"
+        android:textSize="18sp"
+        android:textColor="@android:color/holo_orange_dark" />
+
+    <TextView
+        android:text="Capstone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/version"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13dp"
+        android:id="@+id/textView3"
+        android:textSize="18sp"
+        android:textColor="@android:color/holo_orange_dark" />
+
+    <Button
+        android:text="Take Image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:id="@+id/cameraButton"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        style="@android:style/Widget.Button"
+        android:freezesText="true"
+        android:background="@android:color/background_light"/>
+
+    <Button
+        android:text="Upload Image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/uploadImage"
+        android:layout_below="@+id/textView4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        style="@android:style/Widget.Button"
+        android:background="@android:color/background_light" />
+
+    <TextView
+        android:text="Or"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17dp"
+        android:id="@+id/textView4"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textAllCaps="true"
+        android:layout_below="@+id/cameraButton"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
