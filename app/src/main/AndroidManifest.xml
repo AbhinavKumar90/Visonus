@@ -11,6 +11,7 @@
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <uses-permission android:name="android.permission.CAMERA"> </uses-permission>
+                <uses-permission android:name="android.permission.INTERNET"> </uses-permission>
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>

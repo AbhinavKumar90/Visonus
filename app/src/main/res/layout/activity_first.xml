@@ -83,5 +83,4 @@
         android:textAllCaps="true"
         android:layout_below="@+id/cameraButton"
         android:layout_centerHorizontal="true" />
-
 </RelativeLayout>
